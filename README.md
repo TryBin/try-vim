@@ -6,8 +6,8 @@
 ------|-----|---
 NERDTree |树形目录(默认安装)|https://github.com/scrooloose/nerdtree
 startify  |启动界面(默认安装)|https://github.com/mhinz/vim-startify
-airline  |标签美化(默认安装)|https://github.com/vim-airline/vim-airline
-nerdcommenter |注释插件(默认不安装)|https://github.com/scrooloose/nerdcommenter
+airline  |标签美化(默认安装)|https://github.com/vim-airline/vim-airline
+nerdcommenter |注释插件(默认不安装)|https://github.com/scrooloose/nerdcommenter
 YouCompleteMe |自动补全(默认不安装)|https://github.com/Valloric/YouCompleteMe
 vim-devicons |图标插件(默认不安装)|https://github.com/ryanoasis/vim-devicons
 ctrlp.vim|快速查找(默认不安装)|https://github.com/kien/ctrlp.vim
