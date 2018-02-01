@@ -4,7 +4,7 @@
 ## 集成的插件
 插件名 |作用|项目地址
 ------|-----|---
-NERDTree |属性目录(默认安装)|https://github.com/scrooloose/nerdtree
+NERDTree |树形目录(默认安装)|https://github.com/scrooloose/nerdtree
 startify  |启动界面(默认安装)|https://github.com/mhinz/vim-startify
 airline  |标签美化(默认安装)|https://github.com/vim-airline/vim-airline
 nerdcommenter |注释插件(默认不安装)|https://github.com/scrooloose/nerdcommenter
@@ -127,7 +127,7 @@ N|在反方向上重复上一次搜索命令
 
 
 ## 自动补全功能
-自动补全功能需要YouCompleteMe插件,取消.vimrc文件中的YouCompleteMe插件的注释，在Vim中执行:PluginInstall命令安装。(YouCompleteMe 插件较大，需要安装gcc,cmake,需要vim版本在7.5以上)
+自动补全功能需要YouCompleteMe插件，取消.vimrc文件中的YouCompleteMe插件的注释，在Vim中执行:PluginInstall命令安装。(YouCompleteMe 插件较大，需要安装gcc,cmake,需要vim版本在7.5以上)
 
 安装完后执行   ./vim/bundle/YouCompleteMe/.install.py --clang-completer
 
