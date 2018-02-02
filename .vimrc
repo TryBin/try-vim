@@ -7,14 +7,14 @@ set nu
 
 "设置vim配色方案 配色文件位于/usr/share/vim/vim**/colors目录下
 "(delek industry pablo slate blue desert	
-"koehler peachpuff torte 
+"koehler peach puff torte 
 "darkblue elflord morning 
 "ron zellner default	
 "evening murphy	shine)
 
-colorscheme ron
+colorscheme default
 
-"set bg=dark "设置背景色
+set bg=dark "设置背景色
 
 
 "设定打开vim时的窗口位置和大小
@@ -156,7 +156,7 @@ Plugin 'vim-airline/vim-airline'
 "Bundle 'https://github.com/kien/ctrlp.vim.git'
 
 "自动补全插件YouCompleteMe
-"Bundle 'https://github.com/Valloric/YouCompleteMe.git'
+Bundle 'https://github.com/Valloric/YouCompleteMe.git'
 
 
 "首尾符号替换
@@ -206,7 +206,7 @@ let g:airline_powerline_fonts = 1
 
 
 "----------------YouCompleteMe 插件配置---------------------------------------------  
-let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'  
+let g:ycm_global_ycm_extra_conf= '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 let g:ycm_python_binary_path = '/usr/bin/python'  
 
