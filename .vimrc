@@ -156,7 +156,7 @@ Plugin 'vim-airline/vim-airline'
 "Bundle 'https://github.com/kien/ctrlp.vim.git'
 
 "自动补全插件YouCompleteMe
-Bundle 'https://github.com/Valloric/YouCompleteMe.git'
+"Bundle 'https://github.com/Valloric/YouCompleteMe.git'
 
 
 "首尾符号替换
