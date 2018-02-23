@@ -1,5 +1,8 @@
 # try-vim
 
+![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim1.png)
+
+![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim2.png)
 
 ## 集成的插件
 插件名 |作用|项目地址
