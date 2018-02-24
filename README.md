@@ -47,7 +47,7 @@ vim-surround|首尾符号替换(默认不安装)|https://github.com/tpope/vim-su
 
 若想安装，请打开vimrc文件，
 
-找到对应的插件名称去掉注释符号(")(在call vundle#begin() 代码下面).
+找到对应插件启用行，去掉注释符号(")(在call vundle#begin() 代码下面，Plugin或者 Bundle开头).
 
 然后在vim下执行:PluginInstall命令.
 ## 4.自定义快捷
