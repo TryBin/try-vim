@@ -1,10 +1,14 @@
-# try-vim
+# 一.try-vim
+vim简略配置.Simple configurations of vim
+## 1.预览
+
 
 ![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim1.png)
 
+
 ![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim2.png)
 
-## 一.安装
+## 2.安装
 1.终端下执行以下命令
 ```
 git clone https://github.com/TryBin/try-vim.git ~/try-vim
@@ -18,7 +22,7 @@ sh ~/try-vim/install.sh
 ```
 开始安装插件
 
-## 二.集成的插件
+## 3.集成的插件
 插件名 |作用|项目地址
 ------|-----|---
 NERDTree |树形目录(默认安装)|https://github.com/scrooloose/nerdtree
@@ -30,8 +34,12 @@ vim-devicons |图标插件(默认不安装)|https://github.com/ryanoasis/vim-dev
 ctrlp.vim|快速查找(默认不安装)|https://github.com/kien/ctrlp.vim
 vim-surround|首尾符号替换(默认不安装)|https://github.com/tpope/vim-surround
 
-未默认安装的插件，若想安装，请打开vimrc文件，找到对应的插件名称去掉注释符号(").
-## 三.自定义快捷
+未默认安装的插件，若想安装，请打开vimrc文件，
+
+找到对应的插件名称去掉注释符号(").
+
+然后在vim下执行:PluginInstall命令.
+## 4.自定义快捷
 
 快捷键|作用
 ----|------
@@ -44,7 +52,7 @@ F3|打开、关闭目录树
 [b|上一个缓冲区(已打开的文件)
 ]b|下一个缓冲区(已打开的文件)
 
-# 四.vim自带快捷键
+# 二.vim常用快捷键(vim自带)
 ## 1.移动光标
 快捷键|作用
 --------|-----------
