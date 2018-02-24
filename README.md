@@ -3,9 +3,11 @@ vim简略配置.Simple configurations of vim
 ## 1.预览
 
 启动界面
-![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim0.png)
+![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim3.png)
+
 自动补全
-![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim1.png)
+![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim5.png)
+
 正常模式界面
 ![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim2.png)
 
