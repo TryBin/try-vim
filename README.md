@@ -39,9 +39,11 @@ vim-devicons |图标插件(默认不安装)|https://github.com/ryanoasis/vim-dev
 ctrlp.vim|快速查找(默认不安装)|https://github.com/kien/ctrlp.vim
 vim-surround|首尾符号替换(默认不安装)|https://github.com/tpope/vim-surround
 
-未默认安装的插件，若想安装，请打开vimrc文件，
+(1)具体插件的使用说明，请参考其项目主页的项目说明。
 
-找到对应的插件名称去掉注释符号(").
+(2)未默认安装的插件，若想安装，请打开vimrc文件，
+
+找到对应的插件名称去掉注释符号(")(在call vundle#begin() 代码下面).
 
 然后在vim下执行:PluginInstall命令.
 ## 4.自定义快捷

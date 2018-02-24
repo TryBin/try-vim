@@ -172,7 +172,7 @@ Plugin 'vim-airline/vim-airline'
 call vundle#end()            " 加载插件结束(必须设置) 
 filetype plugin indent on    " 必须设置
 
-"-----------------------Vundle配置(vim插件管理工具)-----------------------------------
+"-----------------------Vundle配置(vim插件管理工具)END-----------------------------------
 
 
 "启动vim时自动打开NERDTree树形目录
