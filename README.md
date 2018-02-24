@@ -2,11 +2,12 @@
 vim简略配置.Simple configurations of vim
 ## 1.预览
 
+![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim2.png)
+
 
 ![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim1.png)
 
 
-![](https://coding.net/u/TryBin/p/image/git/raw/master/Vim/vim2.png)
 
 ## 2.安装
 1.终端下执行以下命令
