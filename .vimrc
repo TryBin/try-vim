@@ -1,4 +1,3 @@
-
 "显示行号
 set nu
 
@@ -114,6 +113,8 @@ nmap <leader>9 <Plug>AirlineSelectTab9
 nmap <leader>- <Plug>AirlineSelectPrevTab
 nmap <leader>+ <Plug>AirlineSelectNextTab
 
+map <F10> :MarkdownPreview<CR>
+
 "---------------END-Airline快捷键----------------------------------
 
 "-------------------------END-快捷键设置------------------------------------
@@ -163,6 +164,16 @@ Plugin 'vim-airline/vim-airline'
 "Bundle 'https://github.com/tpope/vim-surround.git'
 
 
+"markdown插件
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+"markdown实时预览插件
+Plugin 'iamcco/mathjax-support-for-mkdp'
+Plugin 'iamcco/markdown-preview.vim'
+
+"Plugin 'suan/vim-instant-markdown'
+
 "图标插件
 "Plugin 'ryanoasis/vim-devicons'
 
@@ -172,7 +183,7 @@ Plugin 'vim-airline/vim-airline'
 call vundle#end()            " 加载插件结束(必须设置) 
 filetype plugin indent on    " 必须设置
 
-"-----------------------Vundle配置(vim插件管理工具)END-----------------------------------
+"-----------------------Vundle配置(vim插件管理工具)-----------------------------------
 
 
 "启动vim时自动打开NERDTree树形目录
